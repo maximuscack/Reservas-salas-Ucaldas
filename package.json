@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",  // si ya existe, déjalo
-  "build": "next build",  // si ya existe
-  "start": "next start",  // si ya existe
+  "dev": "next dev",  
+  "build": "next build", 
+  "start": "next start",  
   "export": "next build && next export",
   "predeploy": "npm run export"
-  // No necesitas "deploy" aquí porque usaremos Actions
 },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
